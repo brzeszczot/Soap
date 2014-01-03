@@ -1,0 +1,62 @@
+rebuild-needed = false
+variant = Android/Android Release 
+success = true
+timestamp = 1388754615497
+output-main = /Users/brzeszczot/workspace/Soap/Output/Release/Android/Android/package/Soap.apk
+
+[files]
+Soap.vcxproj = 1369741021000
+Soap.cpp = 1369741021000
+workfile.rb = 1369741021000
+.mosyncproject = 1369741021000
+Soap.h = 1369741021000
+.cproject = 1369741021000
+.project = 1369741021000
+SoapTest.cpp = 1371233865000
+
+[dependencies]
+/Soap/Output/Release/Android/Android/Soap.s = /Soap/Soap.h, /Soap/Soap.cpp
+/Soap/SoapTest.cpp = /Soap/Output/Release/Android/Android/SoapTest.s
+/Soap/Output/Release/Android/Android/SoapTest.s = /Soap/Soap.h, /Soap/SoapTest.cpp
+/Soap/Soap.cpp = /Soap/Output/Release/Android/Android/Soap.s
+
+[build-properties]
+build.prefs:ignore.default.library.paths/Release = true
+excludes/Release = 
+template.id = project.empty
+build.prefs:ignore.default.libraries/Debug = true
+build.prefs:additional.library.paths/Release = %mosync-home%/lib/pipe
+build.prefs:extra.res.sw/Release = 
+build.prefs:gcc.warnings/Debug = 0
+build.prefs:ignore.default.libraries/Release = true
+build.prefs:ignore.default.include.paths/Debug = true
+build.prefs:memory.heap/Debug = 128
+build.prefs:extra.link.sw/Release = 
+build.prefs:memory.stack/Release = 64
+build.prefs:additional.library.paths/Debug = %mosync-home%/lib/pipe
+profile.mgr.type = 0
+build.prefs:memory.data/Release = 256
+build.prefs:additional.include.paths/Release = %mosync-home%/include
+excludes/Debug = 
+build.prefs:additional.include.paths/Debug = %mosync-home%/include
+build.prefs:app.vendor = MoSync AB
+build.prefs:additional.libraries = mastd.lib
+build.prefs:gcc.warnings/Release = 0
+build.prefs:additional.library.paths = %mosync-home%/lib/pipe
+build.prefs:ignore.default.library.paths/Debug = true
+dependency.strategy = 0
+build.prefs:memory.heap/Release = 128
+build.prefs:extra.res.sw/Debug = 
+build.prefs:additional.include.paths = %mosync-home%/include
+build.prefs:ignore.default.library.paths = true
+build.prefs:additional.libraries/Debug = mastdD.lib, mautilD.lib, mtxmlD.lib
+build.prefs:ignore.default.include.paths = true
+build.prefs:ignore.default.libraries = true
+build.prefs:extra.link.sw/Debug = 
+build.prefs:ignore.default.include.paths/Release = true
+build.prefs:additional.libraries/Release = mastd.lib, mautil.lib, mtxml.lib
+build.prefs:memory.data/Debug = 256
+build.prefs:memory.stack/Debug = 64
+build.prefs:project.type = 
+build.prefs:app.permissions = Internet\\ Access
+
