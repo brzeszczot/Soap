@@ -26,8 +26,11 @@ using namespace MAUtil;
 
 // This request will return a the result of a multiplication.
 
-static const char sUrl[] = "http://brzeszczot.net/soap_server";//"http://modev.mine.nu:12346/";
+static const char sUrl[] = "http://brzeszczot.net/open/php-wsdl-2.3/demo.php";
+//static const char sUrl[] = "http://brzeszczot.net/soap_server";//"http://modev.mine.nu:12346/";
 static const char sData[] =
+
+"<ns1:ComplexTypeArrayDemo><arr xsi:type=\"SOAP-ENC:Array\" SOAP-ENC:arrayType=\"ns1:ComplexTypeDemo[1]\"><item><StringA>dupaA</StringA><StringB>dupaB</StringB><Integer>34</Integer><Boolean>true</Boolean></item></arr></ns1:ComplexTypeArrayDemo>";
 /*
 "<soapenv:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:urn=\"urn:wsdl\">"
 	"<soapenv:Header/>"
@@ -39,51 +42,38 @@ static const char sData[] =
 		"</soapenv:Envelope>"
 ;
 */
-
+/*
 		"<ns:Get>\n"
 		"<data SOAP-ENC:arrayType=\"xsd:string[3]\" xsi:type=\"SOAP-ENC:Array\">\n"
-		"<item xsi:type=\"xsd:string\">Ala </item>"
-		"<item xsi:type=\"xsd:string\">ma </item>"
-		"<item xsi:type=\"xsd:string\">kota </item>"
+		"<item xsi:type=\"xsd:string\">ala</item>"
+		"<item xsi:type=\"xsd:string\">ma</item>"
+		"<item xsi:type=\"xsd:string\">kota</item>"
 		"</data>\n"
 		"</ns:Get>\n"
 		;
+*/
+
 
 /*
-		"<ns:Get>\n"
-		"<data SOAP-ENC:arrayType=\"ns2:Map[1]\" xsi:type=\"SOAP-ENC:Array\">\n"
-		"<item xsi:type=\"ns2:Map\">"
-		"<item>"
-	        "<key xsi:type=\"xsd:string\">one</key>"
-	        "<value xsi:type=\"xsd:string\">ala </value>"
-		"</item>"
-	    "<item>"
-	        "<key xsi:type=\"xsd:string\">two</key>"
-	        "<value xsi:type=\"xsd:string\">ma </value>"
-		"</item>"
-	    "<item>"
-	        "<key xsi:type=\"xsd:string\">three</key>"
-	        "<value xsi:type=\"xsd:string\">kota</value>"
-		"</item>"
-		"</item>"
-		"</data>\n"
-		"</ns:Get>\n"
+		"<ns1:Get>"
+		"<data xsi:type=\"ns1:Map\">"
+			"<item>"
+				"<key xsi:type=\"xsd:string\">jeden</key>"
+				"<value xsi:type=\"xsd:string\">ala</value>"
+			"</item>"
+			"<item>"
+				"<key xsi:type=\"xsd:string\">dwa</key>"
+				"<value xsi:type=\"xsd:string\">ma</value>"
+			"</item>"
+			"<item>"
+				"<key xsi:type=\"xsd:string\">trzy</key>"
+				"<value xsi:type=\"xsd:string\">kota</value>"
+			"</item>"
+		"</data>"
+		"</ns1:Get>"
 		;
 */
-/*
-		"<ns:Get>\n"
-		//"<data xsi:type=\"xsd:anyType\">ala </data>"
-		"<str xsi:type=\"xsd:string\">Ala ma kota</str>"
-		"</ns:Get>\n"
-		;
-*/
-/*
-"<ns:mul>\n"
-	"<param-7>6.0</param-7>\n"
-	"<param-8>7.0</param-8>\n"
-"</ns:mul>\n"
-;
-*/
+
 
 class MyMoblet : public Moblet, SoapListener {
 private:
@@ -119,7 +109,7 @@ public:
 		//printf("startEnd\n");
 	}
 	void mtxTagData(const char* data, int len) {
-		printf("data '%s'\n", data);
+		printf("data '%s', len: %d\n", data, len);
 	}
 	void mtxTagEnd(const char* name, int len) {
 		printf("end '%s'\n", name);
