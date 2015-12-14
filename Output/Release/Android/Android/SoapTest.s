@@ -160,7 +160,7 @@
 	.stabn	162,0,0,0
 	.stabs	"SoapRequest::State:t(8,1)=eeIdle:0,eWritingHeader:1,eWritingData:2,eWritingFooter:3,eFinishing:4,eReading:5,eError:6,;",128,0,52,0
 	.stabn	162,0,0,0
-	.stabs	"MyMoblet:Tt(0,25)=s1400!2,020,(0,26)=xsMoblet:;001888,(0,27)=xsSoapListener:;mSoap:/0(0,28)=xsSoapRequest:,1920,9280;__base_ctor::(0,29)=#(0,25),(0,6),(0,30)=*(0,25),(0,6);:_ZN8MyMobletC2Ev;2A.;__comp_ctor::(0,29):_ZN8MyMobletC1Ev;2A.;soapError::(0,31)=#(0,25),(0,6),(0,30),(0,3),(0,6);:_ZN8MyMoblet9soapErrorEi;2A*14;(0,25);;soapEnd::(0,29):_ZN8MyMoblet7soapEndEv;2A*15;(0,25);;mtxEncoding::(0,32)=#(0,25),(0,6),(0,30),(0,33)=*(0,34)=k(0,19),(0,6);:_ZN8MyMoblet11mtxEncodingEPKc;2A*16;(0,25);;mtxTagStart::(0,35)=#(0,25),(0,6),(0,30),(0,33),(0,3),(0,6);:_ZN8MyMoblet11mtxTagStartEPKci;2A*17;(0,25);;mtxTagAttr::(0,36)=#(0,25),(0,6),(0,30),(0,33),(0,33),(0,6);:_ZN8MyMoblet10mtxTagAttrEPKcS1_;2A*18;(0,25);;mtxTagStartEnd::(0,29):_ZN8MyMoblet14mtxTagStartEndEv;2A*19;(0,25);;mtxTagData::(0,35):_ZN8MyMoblet10mtxTagDataEPKci;2A*20;(0,25);;mtxTagEnd::(0,35):_ZN8MyMoblet9mtxTagEndEPKci;2A*21;(0,25);;mtxParseError::(0,31):_ZN8MyMoblet13mtxParseErrorEi;2A*22;(0,25);;mtxEmptyTagEnd::(0,29):_ZN8MyMoblet14mtxEmptyTagEndEv;2A*23;(0,25);;mtxUnicodeCharacter::(0,37)=#(0,25),(0,10),(0,30),(0,3),(0,6);:_ZN8MyMoblet19mtxUnicodeCharacterEi;2A*24;(0,25);;keyPressEvent::(0,38)=#(0,25),(0,6),(0,30),(0,3),(0,3),(0,6);:_ZN8MyMoblet13keyPressEventEii;2A*4;(0,25);;keyReleaseEvent::(0,38):_ZN8MyMoblet15keyReleaseEventEii;2A*5;(0,25);;operator=::(0,39)=#(0,25),(0,40)=&(0,25),(0,30),(0,41)=&(0,42)=k(0,25),(0,6);:_ZN8MyMobletaSERKS_;2A.;__base_ctor::(0,43)=#(0,25),(0,6),(0,30),(0,41),(0,6);:_ZN8MyMobletC2ERKS_;2A.;__comp_ctor::(0,43):_ZN8MyMobletC1ERKS_;2A.;__base_dtor::(0,29):_ZN8MyMobletD2Ev;2A.;__comp_dtor::(0,29):_ZN8MyMobletD1Ev;2A*2;(0,25);;__deleting_dtor::(0,29):_ZN8MyMobletD0Ev;2A*3;(0,25);;;~%(0,44)=xsEnvironment:;",128,0,78,0
+	.stabs	"MyMoblet:Tt(0,25)=s1400!2,020,(0,26)=xsMoblet:;001888,(0,27)=xsSoapListener:;mSoap:/0(0,28)=xsSoapRequest:,1920,9280;__base_ctor::(0,29)=#(0,25),(0,6),(0,30)=*(0,25),(0,6);:_ZN8MyMobletC2Ev;2A.;__comp_ctor::(0,29):_ZN8MyMobletC1Ev;2A.;soapError::(0,31)=#(0,25),(0,6),(0,30),(0,3),(0,6);:_ZN8MyMoblet9soapErrorEi;2A*14;(0,25);;soapEnd::(0,29):_ZN8MyMoblet7soapEndEv;2A*15;(0,25);;mtxEncoding::(0,32)=#(0,25),(0,6),(0,30),(0,33)=*(0,34)=k(0,19),(0,6);:_ZN8MyMoblet11mtxEncodingEPKc;2A*16;(0,25);;mtxTagStart::(0,35)=#(0,25),(0,6),(0,30),(0,33),(0,3),(0,6);:_ZN8MyMoblet11mtxTagStartEPKci;2A*17;(0,25);;mtxTagAttr::(0,36)=#(0,25),(0,6),(0,30),(0,33),(0,33),(0,6);:_ZN8MyMoblet10mtxTagAttrEPKcS1_;2A*18;(0,25);;mtxTagStartEnd::(0,29):_ZN8MyMoblet14mtxTagStartEndEv;2A*19;(0,25);;mtxTagData::(0,35):_ZN8MyMoblet10mtxTagDataEPKci;2A*20;(0,25);;mtxTagEnd::(0,35):_ZN8MyMoblet9mtxTagEndEPKci;2A*21;(0,25);;mtxParseError::(0,31):_ZN8MyMoblet13mtxParseErrorEi;2A*22;(0,25);;mtxEmptyTagEnd::(0,29):_ZN8MyMoblet14mtxEmptyTagEndEv;2A*23;(0,25);;mtxUnicodeCharacter::(0,37)=#(0,25),(0,10),(0,30),(0,3),(0,6);:_ZN8MyMoblet19mtxUnicodeCharacterEi;2A*24;(0,25);;keyPressEvent::(0,38)=#(0,25),(0,6),(0,30),(0,3),(0,3),(0,6);:_ZN8MyMoblet13keyPressEventEii;2A*4;(0,25);;keyReleaseEvent::(0,38):_ZN8MyMoblet15keyReleaseEventEii;2A*5;(0,25);;operator=::(0,39)=#(0,25),(0,40)=&(0,25),(0,30),(0,41)=&(0,42)=k(0,25),(0,6);:_ZN8MyMobletaSERKS_;2A.;__base_ctor::(0,43)=#(0,25),(0,6),(0,30),(0,41),(0,6);:_ZN8MyMobletC2ERKS_;2A.;__comp_ctor::(0,43):_ZN8MyMobletC1ERKS_;2A.;__base_dtor::(0,29):_ZN8MyMobletD2Ev;2A.;__comp_dtor::(0,29):_ZN8MyMobletD1Ev;2A*2;(0,25);;__deleting_dtor::(0,29):_ZN8MyMobletD0Ev;2A*3;(0,25);;;~%(0,44)=xsEnvironment:;",128,0,82,0
 	.stabs	"SoapListener:Tt(0,27)=s4!1,020,(12,50);soapError::(0,45)=#(0,27),(0,6),(0,46)=*(0,27),(0,3),(0,6);:_ZN12SoapListener9soapErrorEi;2A*9;(0,27);;soapEnd::(0,47)=#(0,27),(0,6),(0,46),(0,6);:_ZN12SoapListener7soapEndEv;2A*10;(0,27);;operator=::(0,48)=#(0,27),(0,49)=&(0,27),(0,46),(0,50)=&(0,51)=k(0,27),(0,6);:_ZN12SoapListeneraSERKS_;2A.;__base_ctor::(0,52)=#(0,27),(0,6),(0,46),(0,50),(0,6);:_ZN12SoapListenerC2ERKS_;2A.;__comp_ctor::(0,52):_ZN12SoapListenerC1ERKS_;2A.;__base_ctor::(0,53)=#(0,27),(0,6),(0,46),(0,6);:_ZN12SoapListenerC2Ev;2A.;__comp_ctor::(0,53):_ZN12SoapListenerC1Ev;2A.;;~%(0,54)=xsXmlListenerT<char>:;",128,0,27,0
 	.stabs	"XmlListenerT<char>:Tt(0,54)=s4_vptr$XmlListenerT:(0,55)=*(0,1),0,32;mtxEncoding::(0,56)=#(0,54),(0,6),(0,57)=*(0,54),(0,33),(0,6);:_ZN3Mtx12XmlListenerTIcE11mtxEncodingEPKc;2A*0;(0,54);;mtxTagStart::(0,58)=#(0,54),(0,6),(0,57),(0,33),(0,3),(0,6);:_ZN3Mtx12XmlListenerTIcE11mtxTagStartEPKci;2A*1;(0,54);;mtxTagAttr::(0,59)=#(0,54),(0,6),(0,57),(0,33),(0,33),(0,6);:_ZN3Mtx12XmlListenerTIcE10mtxTagAttrEPKcS3_;2A*2;(0,54);;mtxTagStartEnd::(0,60)=#(0,54),(0,6),(0,57),(0,6);:_ZN3Mtx12XmlListenerTIcE14mtxTagStartEndEv;2A*3;(0,54);;mtxTagData::(0,58):_ZN3Mtx12XmlListenerTIcE10mtxTagDataEPKci;2A*4;(0,54);;mtxTagEnd::(0,58):_ZN3Mtx12XmlListenerTIcE9mtxTagEndEPKci;2A*5;(0,54);;mtxParseError::(0,61)=#(0,54),(0,6),(0,57),(0,3),(0,6);:_ZN3Mtx12XmlListenerTIcE13mtxParseErrorEi;2A*6;(0,54);;mtxEmptyTagEnd::(0,60):_ZN3Mtx12XmlListenerTIcE14mtxEmptyTagEndEv;2A*7;(0,54);;operator=::(0,62)=#(0,54),(0,63)=&(0,54),(0,57),(0,64)=&(0,65)=k(0,54),(0,6);:_ZN3Mtx12XmlListenerTIcEaSERKS1_;2A.;__base_ctor::(0,66)=#(0,54),(0,6),(0,57),(0,64),(0,6);:_ZN3Mtx12XmlListenerTIcEC2ERKS1_;2A.;__comp_ctor::(0,66):_ZN3Mtx12XmlListenerTIcEC1ERKS1_;2A.;__base_ctor::(0,67)=#(0,54),(0,6),(0,57),(0,6);:_ZN3Mtx12XmlListenerTIcEC2Ev;2A.;__comp_ctor::(0,67):_ZN3Mtx12XmlListenerTIcEC1Ev;2A.;;~%(0,54);",128,0,302,0
 	.stabs	"RefCounted:Tt(0,68)=s8_vptr$RefCounted:(0,55),0,32;mRefCount:/0(0,3),32,32;__base_ctor::(0,69)=#(0,68),(0,6),(0,70)=*(0,68),(0,3),(0,6);:_ZN6MAUtil10RefCountedC2Ei;2A.;__comp_ctor::(0,69):_ZN6MAUtil10RefCountedC1Ei;2A.;addRef::(0,71)=#(0,68),(0,6),(0,70),(0,6);:_ZN6MAUtil10RefCounted6addRefEv;2A.;release::(0,71):_ZN6MAUtil10RefCounted7releaseEv;2A.;getRefCount::(0,72)=#(0,68),(0,3),(0,70),(0,6);:_ZN6MAUtil10RefCounted11getRefCountEv;2A.;__base_dtor::(0,71):_ZN6MAUtil10RefCountedD2Ev;2A.;__comp_dtor::(0,71):_ZN6MAUtil10RefCountedD1Ev;2A*0;(0,68);;__deleting_dtor::(0,71):_ZN6MAUtil10RefCountedD0Ev;2A*1;(0,68);;operator=::(0,73)=#(0,68),(0,74)=&(0,68),(0,70),(0,75)=&(0,76)=k(0,68),(0,6);:_ZN6MAUtil10RefCountedaSERKS0_;2A.;__base_ctor::(0,77)=#(0,68),(0,6),(0,70),(0,75),(0,6);:_ZN6MAUtil10RefCountedC2ERKS0_;2A.;__comp_ctor::(0,77):_ZN6MAUtil10RefCountedC1ERKS0_;2A.;;~%(0,68);",128,0,28,0
@@ -168,9 +168,9 @@
 	.stabs	"CloseListener:Tt(7,107)=s4_vptr$CloseListener:(0,55),0,32;closeEvent::(0,87)=#(7,107),(0,6),(7,106),(0,6);:_ZN6MAUtil13CloseListener10closeEventEv;2A*0;(7,107);;operator=::(0,88)=#(7,107),(0,89)=&(7,107),(7,106),(0,90)=&(0,91)=k(7,107),(0,6);:_ZN6MAUtil13CloseListeneraSERKS0_;2A.;__base_ctor::(0,92)=#(7,107),(0,6),(7,106),(0,90),(0,6);:_ZN6MAUtil13CloseListenerC2ERKS0_;2A.;__comp_ctor::(0,92):_ZN6MAUtil13CloseListenerC1ERKS0_;2A.;__base_ctor::(0,93)=#(7,107),(0,6),(7,106),(0,6);:_ZN6MAUtil13CloseListenerC2Ev;2A.;__comp_ctor::(0,93):_ZN6MAUtil13CloseListenerC1Ev;2A.;;~%(7,107);",128,0,112,0
 .data
 _sData:
-	.ascii "<ns1:ComplexTypeArrayDemo><arr xsi:type=\"SOAP-ENC:Array\" SOAP-ENC:arrayType=\"ns1:ComplexTypeDemo[1]\"><item><StringA>dupaA</StringA><StringB>dupaB</StringB><Integer>34</Integer><Boolean>true</Boolean></item></arr></ns1:ComplexTypeArrayDemo>\0"
+	.ascii "<ns1:GetWord><range>ALL</range><opt SOAP-ENC:arrayType=\"xsd:string[3]\" xsi:type=\"SOAP-ENC:Array\"><item>Ala</item><item>ma</item><item>kota! :)</item></opt></ns1:GetWord>\0"
 _sUrl:
-	.ascii "http://brzeszczot.net/open/php-wsdl-2.3/demo.php\0"
+	.ascii "http://brzeszczot.net/open/server.php\0"
 	.align 4
 __ZTV8MyMoblet:
 	.long	0
@@ -499,17 +499,17 @@ Lscope14:
 	ret
 Lscope15:
 	.set	%7=__ZN8MyMoblet9soapErrorEi
-	.stabs	"this:P(0,97)=k(0,30)",64,0,86,12
-	.stabs	"code:P(0,3)",64,0,86,13
+	.stabs	"this:P(0,97)=k(0,30)",64,0,90,12
+	.stabs	"code:P(0,3)",64,0,90,13
 
 .func __ZThn236_N8MyMoblet9soapErrorEi, 2, void
 	.stabs	"/Users/brzeszczot/workspace/Soap/SoapTest.cpp",132,0,0,Ltext3
 Ltext3:
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff14
 	call &%7 ; call non-native
 	pop  rt,fr
@@ -521,49 +521,49 @@ LC1:
 LC0:
 	.ascii "Connection closed by server.\0"
 .code
-	.stabs	"_ZN8MyMoblet9soapErrorEi:f(0,6)",36,0,86,__ZN8MyMoblet9soapErrorEi
-	.stabs	"this:P(0,97)",64,0,86,12
-	.stabs	"code:P(0,3)",64,0,86,13
+	.stabs	"_ZN8MyMoblet9soapErrorEi:f(0,6)",36,0,90,__ZN8MyMoblet9soapErrorEi
+	.stabs	"this:P(0,97)",64,0,90,12
+	.stabs	"code:P(0,3)",64,0,90,13
 
 .func __ZN8MyMoblet9soapErrorEi, 2, void
-	.line 86
+	.line 90
 	push rt,fr
 	sub  sp,#0x4
 	ld   fr,sp
 	add  fr,#0xc
 	.dlab LBB2
-	.line 89
+	.line 93
 	ld   r14,#0xfffffffa
 	jc   eq,i1,r14,#L21
-	.line 93
+	.line 97
 	ld   [sp],i1
 	ld   i0,#LC1
 	call &_printf ; call non-native
 	.dlab LBE2
-	.line 94
+	.line 98
 	add  sp,#0x4
 	pop  rt,fr
 	ret
 L21:
 	.dlab LBB3
-	.line 90
+	.line 94
 	ld   i0,#LC0
 	call &_puts ; call non-native
 	.dlab LBE3
-	.line 94
+	.line 98
 	add  sp,#0x4
 	pop  rt,fr
 	ret
 Lscope17:
 	.set	%8=__ZN8MyMoblet7soapEndEv
-	.stabs	"this:P(0,97)",64,0,95,12
+	.stabs	"this:P(0,97)",64,0,99,12
 
 .func __ZThn236_N8MyMoblet7soapEndEv, 1, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff14
 	call &%8 ; call non-native
 	pop  rt,fr
@@ -573,16 +573,16 @@ Lscope18:
 LC2:
 	.ascii "soapEnd()\0"
 .code
-	.stabs	"_ZN8MyMoblet7soapEndEv:f(0,6)",36,0,95,__ZN8MyMoblet7soapEndEv
-	.stabs	"this:P(0,97)",64,0,95,12
+	.stabs	"_ZN8MyMoblet7soapEndEv:f(0,6)",36,0,99,__ZN8MyMoblet7soapEndEv
+	.stabs	"this:P(0,97)",64,0,99,12
 
 .func __ZN8MyMoblet7soapEndEv, 1, void
-	.line 95
+	.line 99
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
 	.dlab LBB4
-	.line 96
+	.line 100
 	ld   i0,#LC2
 	call &_puts ; call non-native
 	.dlab LBE4
@@ -590,15 +590,15 @@ LC2:
 	ret
 Lscope19:
 	.set	%9=__ZN8MyMoblet11mtxEncodingEPKc
-	.stabs	"this:P(0,97)",64,0,99,12
-	.stabs	"name:P(0,33)",64,0,99,13
+	.stabs	"this:P(0,97)",64,0,103,12
+	.stabs	"name:P(0,33)",64,0,103,13
 
 .func __ZThn236_N8MyMoblet11mtxEncodingEPKc, 2, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff14
 	call &%9 ; call non-native
 	pop  rt,fr
@@ -608,18 +608,18 @@ Lscope20:
 LC3:
 	.ascii "encoding '%s'\12\0"
 .code
-	.stabs	"_ZN8MyMoblet11mtxEncodingEPKc:f(0,6)",36,0,99,__ZN8MyMoblet11mtxEncodingEPKc
-	.stabs	"this:P(0,97)",64,0,99,12
-	.stabs	"name:P(0,33)",64,0,99,13
+	.stabs	"_ZN8MyMoblet11mtxEncodingEPKc:f(0,6)",36,0,103,__ZN8MyMoblet11mtxEncodingEPKc
+	.stabs	"this:P(0,97)",64,0,103,12
+	.stabs	"name:P(0,33)",64,0,103,13
 
 .func __ZN8MyMoblet11mtxEncodingEPKc, 2, void
-	.line 99
+	.line 103
 	push rt,fr
 	sub  sp,#0x4
 	ld   fr,sp
 	add  fr,#0xc
 	.dlab LBB5
-	.line 100
+	.line 104
 	ld   [sp],i1
 	ld   i0,#LC3
 	call &_printf ; call non-native
@@ -629,16 +629,16 @@ LC3:
 	ret
 Lscope21:
 	.set	%10=__ZN8MyMoblet11mtxTagStartEPKci
-	.stabs	"this:P(0,97)",64,0,102,12
-	.stabs	"name:P(0,33)",64,0,102,13
-	.stabs	"len:P(0,3)",64,0,102,14
+	.stabs	"this:P(0,97)",64,0,106,12
+	.stabs	"name:P(0,33)",64,0,106,13
+	.stabs	"len:P(0,3)",64,0,106,14
 
 .func __ZThn236_N8MyMoblet11mtxTagStartEPKci, 3, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff14
 	call &%10 ; call non-native
 	pop  rt,fr
@@ -648,19 +648,19 @@ Lscope22:
 LC4:
 	.ascii "start '%s'\12\0"
 .code
-	.stabs	"_ZN8MyMoblet11mtxTagStartEPKci:f(0,6)",36,0,102,__ZN8MyMoblet11mtxTagStartEPKci
-	.stabs	"this:P(0,97)",64,0,102,12
-	.stabs	"name:P(0,33)",64,0,102,13
-	.stabs	"len:P(0,3)",64,0,102,14
+	.stabs	"_ZN8MyMoblet11mtxTagStartEPKci:f(0,6)",36,0,106,__ZN8MyMoblet11mtxTagStartEPKci
+	.stabs	"this:P(0,97)",64,0,106,12
+	.stabs	"name:P(0,33)",64,0,106,13
+	.stabs	"len:P(0,3)",64,0,106,14
 
 .func __ZN8MyMoblet11mtxTagStartEPKci, 3, void
-	.line 102
+	.line 106
 	push rt,fr
 	sub  sp,#0x4
 	ld   fr,sp
 	add  fr,#0xc
 	.dlab LBB6
-	.line 103
+	.line 107
 	ld   [sp],i1
 	ld   i0,#LC4
 	call &_printf ; call non-native
@@ -670,16 +670,16 @@ LC4:
 	ret
 Lscope23:
 	.set	%11=__ZN8MyMoblet10mtxTagAttrEPKcS1_
-	.stabs	"this:P(0,97)",64,0,105,12
-	.stabs	"attrName:P(0,33)",64,0,105,13
-	.stabs	"attrValue:P(0,33)",64,0,105,14
+	.stabs	"this:P(0,97)",64,0,109,12
+	.stabs	"attrName:P(0,33)",64,0,109,13
+	.stabs	"attrValue:P(0,33)",64,0,109,14
 
 .func __ZThn236_N8MyMoblet10mtxTagAttrEPKcS1_, 3, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff14
 	call &%11 ; call non-native
 	pop  rt,fr
@@ -689,19 +689,19 @@ Lscope24:
 LC5:
 	.ascii "attr %s='%s'\12\0"
 .code
-	.stabs	"_ZN8MyMoblet10mtxTagAttrEPKcS1_:f(0,6)",36,0,105,__ZN8MyMoblet10mtxTagAttrEPKcS1_
-	.stabs	"this:P(0,97)",64,0,105,12
-	.stabs	"attrName:P(0,33)",64,0,105,13
-	.stabs	"attrValue:P(0,33)",64,0,105,14
+	.stabs	"_ZN8MyMoblet10mtxTagAttrEPKcS1_:f(0,6)",36,0,109,__ZN8MyMoblet10mtxTagAttrEPKcS1_
+	.stabs	"this:P(0,97)",64,0,109,12
+	.stabs	"attrName:P(0,33)",64,0,109,13
+	.stabs	"attrValue:P(0,33)",64,0,109,14
 
 .func __ZN8MyMoblet10mtxTagAttrEPKcS1_, 3, void
-	.line 105
+	.line 109
 	push rt,fr
 	sub  sp,#0x8
 	ld   fr,sp
 	add  fr,#0x10
 	.dlab LBB7
-	.line 106
+	.line 110
 	ld   [sp],i1
 	ld   [sp,4],i2
 	ld   i0,#LC5
@@ -712,42 +712,42 @@ LC5:
 	ret
 Lscope25:
 	.set	%12=__ZN8MyMoblet14mtxTagStartEndEv
-	.stabs	"this:P(0,97)",64,0,108,12
+	.stabs	"this:P(0,97)",64,0,112,12
 
 .func __ZThn236_N8MyMoblet14mtxTagStartEndEv, 1, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff14
 	call &%12 ; call non-native
 	pop  rt,fr
 	ret
 Lscope26:
-	.stabs	"_ZN8MyMoblet14mtxTagStartEndEv:f(0,6)",36,0,108,__ZN8MyMoblet14mtxTagStartEndEv
-	.stabs	"this:P(0,97)",64,0,108,12
+	.stabs	"_ZN8MyMoblet14mtxTagStartEndEv:f(0,6)",36,0,112,__ZN8MyMoblet14mtxTagStartEndEv
+	.stabs	"this:P(0,97)",64,0,112,12
 
 .func __ZN8MyMoblet14mtxTagStartEndEv, 1, void
-	.line 108
+	.line 112
 	push fr,fr
 	ld   fr,sp
 	add  fr,#0x4
-	.line 108
+	.line 112
 	pop  fr,fr
 	ret
 Lscope27:
 	.set	%13=__ZN8MyMoblet10mtxTagDataEPKci
-	.stabs	"this:P(0,97)",64,0,111,12
-	.stabs	"data:P(0,33)",64,0,111,13
-	.stabs	"len:P(0,3)",64,0,111,14
+	.stabs	"this:P(0,97)",64,0,115,12
+	.stabs	"data:P(0,33)",64,0,115,13
+	.stabs	"len:P(0,3)",64,0,115,14
 
 .func __ZThn236_N8MyMoblet10mtxTagDataEPKci, 3, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff14
 	call &%13 ; call non-native
 	pop  rt,fr
@@ -757,19 +757,19 @@ Lscope28:
 LC6:
 	.ascii "data '%s', len: %d\12\0"
 .code
-	.stabs	"_ZN8MyMoblet10mtxTagDataEPKci:f(0,6)",36,0,111,__ZN8MyMoblet10mtxTagDataEPKci
-	.stabs	"this:P(0,97)",64,0,111,12
-	.stabs	"data:P(0,33)",64,0,111,13
-	.stabs	"len:P(0,3)",64,0,111,14
+	.stabs	"_ZN8MyMoblet10mtxTagDataEPKci:f(0,6)",36,0,115,__ZN8MyMoblet10mtxTagDataEPKci
+	.stabs	"this:P(0,97)",64,0,115,12
+	.stabs	"data:P(0,33)",64,0,115,13
+	.stabs	"len:P(0,3)",64,0,115,14
 
 .func __ZN8MyMoblet10mtxTagDataEPKci, 3, void
-	.line 111
+	.line 115
 	push rt,fr
 	sub  sp,#0x8
 	ld   fr,sp
 	add  fr,#0x10
 	.dlab LBB8
-	.line 112
+	.line 116
 	ld   [sp],i1
 	ld   [sp,4],i2
 	ld   i0,#LC6
@@ -780,16 +780,16 @@ LC6:
 	ret
 Lscope29:
 	.set	%14=__ZN8MyMoblet9mtxTagEndEPKci
-	.stabs	"this:P(0,97)",64,0,114,12
-	.stabs	"name:P(0,33)",64,0,114,13
-	.stabs	"len:P(0,3)",64,0,114,14
+	.stabs	"this:P(0,97)",64,0,118,12
+	.stabs	"name:P(0,33)",64,0,118,13
+	.stabs	"len:P(0,3)",64,0,118,14
 
 .func __ZThn236_N8MyMoblet9mtxTagEndEPKci, 3, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff14
 	call &%14 ; call non-native
 	pop  rt,fr
@@ -799,19 +799,19 @@ Lscope30:
 LC7:
 	.ascii "end '%s'\12\0"
 .code
-	.stabs	"_ZN8MyMoblet9mtxTagEndEPKci:f(0,6)",36,0,114,__ZN8MyMoblet9mtxTagEndEPKci
-	.stabs	"this:P(0,97)",64,0,114,12
-	.stabs	"name:P(0,33)",64,0,114,13
-	.stabs	"len:P(0,3)",64,0,114,14
+	.stabs	"_ZN8MyMoblet9mtxTagEndEPKci:f(0,6)",36,0,118,__ZN8MyMoblet9mtxTagEndEPKci
+	.stabs	"this:P(0,97)",64,0,118,12
+	.stabs	"name:P(0,33)",64,0,118,13
+	.stabs	"len:P(0,3)",64,0,118,14
 
 .func __ZN8MyMoblet9mtxTagEndEPKci, 3, void
-	.line 114
+	.line 118
 	push rt,fr
 	sub  sp,#0x4
 	ld   fr,sp
 	add  fr,#0xc
 	.dlab LBB9
-	.line 115
+	.line 119
 	ld   [sp],i1
 	ld   i0,#LC7
 	call &_printf ; call non-native
@@ -821,15 +821,15 @@ LC7:
 	ret
 Lscope31:
 	.set	%15=__ZN8MyMoblet13mtxParseErrorEi
-	.stabs	"this:P(0,97)",64,0,117,12
-	.stabs	"offset:P(0,3)",64,0,117,13
+	.stabs	"this:P(0,97)",64,0,121,12
+	.stabs	"offset:P(0,3)",64,0,121,13
 
 .func __ZThn236_N8MyMoblet13mtxParseErrorEi, 2, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff14
 	call &%15 ; call non-native
 	pop  rt,fr
@@ -839,18 +839,18 @@ Lscope32:
 LC8:
 	.ascii "parseError %i\12\0"
 .code
-	.stabs	"_ZN8MyMoblet13mtxParseErrorEi:f(0,6)",36,0,117,__ZN8MyMoblet13mtxParseErrorEi
-	.stabs	"this:P(0,97)",64,0,117,12
-	.stabs	"offset:P(0,3)",64,0,117,13
+	.stabs	"_ZN8MyMoblet13mtxParseErrorEi:f(0,6)",36,0,121,__ZN8MyMoblet13mtxParseErrorEi
+	.stabs	"this:P(0,97)",64,0,121,12
+	.stabs	"offset:P(0,3)",64,0,121,13
 
 .func __ZN8MyMoblet13mtxParseErrorEi, 2, void
-	.line 117
+	.line 121
 	push rt,fr
 	sub  sp,#0x4
 	ld   fr,sp
 	add  fr,#0xc
 	.dlab LBB10
-	.line 118
+	.line 122
 	ld   [sp],i1
 	ld   i0,#LC8
 	call &_printf ; call non-native
@@ -860,14 +860,14 @@ LC8:
 	ret
 Lscope33:
 	.set	%16=__ZN8MyMoblet14mtxEmptyTagEndEv
-	.stabs	"this:P(0,97)",64,0,120,12
+	.stabs	"this:P(0,97)",64,0,124,12
 
 .func __ZThn236_N8MyMoblet14mtxEmptyTagEndEv, 1, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff14
 	call &%16 ; call non-native
 	pop  rt,fr
@@ -877,16 +877,16 @@ Lscope34:
 LC9:
 	.ascii "emptyTagEnd\0"
 .code
-	.stabs	"_ZN8MyMoblet14mtxEmptyTagEndEv:f(0,6)",36,0,120,__ZN8MyMoblet14mtxEmptyTagEndEv
-	.stabs	"this:P(0,97)",64,0,120,12
+	.stabs	"_ZN8MyMoblet14mtxEmptyTagEndEv:f(0,6)",36,0,124,__ZN8MyMoblet14mtxEmptyTagEndEv
+	.stabs	"this:P(0,97)",64,0,124,12
 
 .func __ZN8MyMoblet14mtxEmptyTagEndEv, 1, void
-	.line 120
+	.line 124
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
 	.dlab LBB11
-	.line 121
+	.line 125
 	ld   i0,#LC9
 	call &_puts ; call non-native
 	.dlab LBE11
@@ -894,15 +894,15 @@ LC9:
 	ret
 Lscope35:
 	.set	%17=__ZN8MyMoblet19mtxUnicodeCharacterEi
-	.stabs	"this:P(0,97)",64,0,123,12
-	.stabs	"unicode:P(0,3)",64,0,123,13
+	.stabs	"this:P(0,97)",64,0,127,12
+	.stabs	"unicode:P(0,3)",64,0,127,13
 
 .func __ZThn236_N8MyMoblet19mtxUnicodeCharacterEi, 2, int
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff14
 	call &%17 ; call non-native
 	and  r14,#0xff  ; zero extend
@@ -913,12 +913,12 @@ Lscope36:
 LC10:
 	.ascii "Unknown unicode character: 0x%x\0"
 .code
-	.stabs	"_ZN8MyMoblet19mtxUnicodeCharacterEi:f(0,10)",36,0,123,__ZN8MyMoblet19mtxUnicodeCharacterEi
-	.stabs	"this:P(0,97)",64,0,123,12
-	.stabs	"unicode:P(0,3)",64,0,123,5
+	.stabs	"_ZN8MyMoblet19mtxUnicodeCharacterEi:f(0,10)",36,0,127,__ZN8MyMoblet19mtxUnicodeCharacterEi
+	.stabs	"this:P(0,97)",64,0,127,12
+	.stabs	"unicode:P(0,3)",64,0,127,5
 
 .func __ZN8MyMoblet19mtxUnicodeCharacterEi, 2, int
-	.line 123
+	.line 127
 	push rt,d1
 	sub  sp,#0x4
 	ld   fr,sp
@@ -926,17 +926,17 @@ LC10:
 	ld   d1,i1
 	.dlab LBB12
 	.dlab LBB13
-	.line 124
+	.line 128
 	add  i0,#0xec
 	call &__ZN3Mtx11XmlListener19mtxUnicodeCharacterEi ; call non-native
 	ld   d0,r14
-	.line 125
+	.line 129
 	xb   r14,r14
 	ld   r0,#0x0
 	jc   eq,r14,r0,#L43
 	.dlab LBE13
 	.dlab LBE12
-	.line 130
+	.line 134
 	ld   r14,d0
 	and  r14,#0xff  ; zero extend
 	add  sp,#0x4
@@ -945,55 +945,55 @@ LC10:
 L43:
 	.dlab LBB14
 	.dlab LBB15
-	.line 126
+	.line 130
 	ld   d0,#0x3f
-	.line 127
+	.line 131
 	ld   [sp],d1
 	ld   i0,#LC10
 	call &_lprintfln ; call non-native
 	.dlab LBE15
 	.dlab LBE14
-	.line 130
+	.line 134
 	ld   r14,d0
 	and  r14,#0xff  ; zero extend
 	add  sp,#0x4
 	pop  rt,d1
 	ret
-	.stabs	"c:r(0,19)",64,0,124,4
+	.stabs	"c:r(0,19)",64,0,128,4
 	.stabn	192,0,0,LBB13-__ZN8MyMoblet19mtxUnicodeCharacterEi
 	.stabn	224,0,0,LBE13-__ZN8MyMoblet19mtxUnicodeCharacterEi
-	.stabs	"c:r(0,19)",64,0,124,4
+	.stabs	"c:r(0,19)",64,0,128,4
 	.stabn	192,0,0,LBB15-__ZN8MyMoblet19mtxUnicodeCharacterEi
 	.stabn	224,0,0,LBE15-__ZN8MyMoblet19mtxUnicodeCharacterEi
 Lscope37:
 	.set	%18=__ZN8MyMoblet13keyPressEventEii
-	.stabs	"this:P(0,97)",64,0,132,12
-	.stabs	"keyCode:P(0,3)",64,0,132,13
-	.stabs	"nativeCode:P(0,3)",64,0,132,14
+	.stabs	"this:P(0,97)",64,0,136,12
+	.stabs	"keyCode:P(0,3)",64,0,136,13
+	.stabs	"nativeCode:P(0,3)",64,0,136,14
 
 .func __ZThn216_N8MyMoblet13keyPressEventEii, 3, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff28
 	call &%18 ; call non-native
 	pop  rt,fr
 	ret
 Lscope38:
-	.stabs	"_ZN8MyMoblet13keyPressEventEii:f(0,6)",36,0,132,__ZN8MyMoblet13keyPressEventEii
-	.stabs	"this:P(0,97)",64,0,132,12
-	.stabs	"keyCode:P(0,3)",64,0,132,13
-	.stabs	"nativeCode:P(0,3)",64,0,132,14
+	.stabs	"_ZN8MyMoblet13keyPressEventEii:f(0,6)",36,0,136,__ZN8MyMoblet13keyPressEventEii
+	.stabs	"this:P(0,97)",64,0,136,12
+	.stabs	"keyCode:P(0,3)",64,0,136,13
+	.stabs	"nativeCode:P(0,3)",64,0,136,14
 
 .func __ZN8MyMoblet13keyPressEventEii, 3, void
-	.line 132
+	.line 136
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
 	.dlab LBB16
-	.line 133
+	.line 137
 	ld   r14,#0x11e
 	jc   eq,i1,r14,#L49
 	jc   gt,i1,r14,#L50
@@ -1001,69 +1001,69 @@ Lscope38:
 	jc   eq,i1,r14,#L49
 L45:
 	.dlab LBE16
-	.line 139
+	.line 143
 	pop  rt,fr
 	ret
 L50:
 	.dlab LBB17
-	.line 133
+	.line 137
 	ld   r14,#0x124
 	jc   ne,i1,r14,#L45
 L49:
-	.line 137
+	.line 141
 	ld   i0,#0x0
 	call &_maExit ; call non-native
 	.dlab LBE17
 Lscope39:
 	.set	%19=__ZN8MyMoblet15keyReleaseEventEii
-	.stabs	"this:P(0,97)",64,0,141,12
-	.stabs	"keyCode:P(0,3)",64,0,141,13
-	.stabs	"nativeCode:P(0,3)",64,0,141,14
+	.stabs	"this:P(0,97)",64,0,145,12
+	.stabs	"keyCode:P(0,3)",64,0,145,13
+	.stabs	"nativeCode:P(0,3)",64,0,145,14
 
 .func __ZThn216_N8MyMoblet15keyReleaseEventEii, 3, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff28
 	call &%19 ; call non-native
 	pop  rt,fr
 	ret
 Lscope40:
-	.stabs	"_ZN8MyMoblet15keyReleaseEventEii:f(0,6)",36,0,141,__ZN8MyMoblet15keyReleaseEventEii
-	.stabs	"this:P(0,97)",64,0,141,12
-	.stabs	"keyCode:P(0,3)",64,0,141,13
-	.stabs	"nativeCode:P(0,3)",64,0,141,14
+	.stabs	"_ZN8MyMoblet15keyReleaseEventEii:f(0,6)",36,0,145,__ZN8MyMoblet15keyReleaseEventEii
+	.stabs	"this:P(0,97)",64,0,145,12
+	.stabs	"keyCode:P(0,3)",64,0,145,13
+	.stabs	"nativeCode:P(0,3)",64,0,145,14
 
 .func __ZN8MyMoblet15keyReleaseEventEii, 3, void
-	.line 141
+	.line 145
 	push fr,fr
 	ld   fr,sp
 	add  fr,#0x4
-	.line 141
+	.line 145
 	pop  fr,fr
 	ret
 Lscope41:
-	.stabs	"MAMain:F(0,3)",36,0,145,_MAMain
+	.stabs	"MAMain:F(0,3)",36,0,149,_MAMain
 	.global	_MAMain
 
 .func _MAMain, 0, int
-	.line 145
+	.line 149
 	push rt,d2
 	sub  sp,#0x4
 	ld   fr,sp
 	add  fr,#0x18
 	.dlab LBB18
-	.line 146
+	.line 150
 	call &_InitConsole ; call non-native
-	.line 147
+	.line 151
 	ld   i0,#0x578
 	call &__Znwm ; call non-native
 	ld   d0,r14
 	.dlab LBB19
 	.dlab LBB20
-	.line 82
+	.line 86
 	ld   i0,r14
 	call &__ZN6MAUtil6MobletC2Ev ; call non-native
 	.dlab LBB21
@@ -1086,66 +1086,66 @@ Lscope41:
 	add  d1,#0xf0
 	ld   i0,d1
 	call &__ZN11SoapRequestC1Ev ; call non-native
-	.line 83
+	.line 87
 	ld   [sp],d2
 	ld   i0,d1
 	ld   i1,#_sUrl
 	ld   i2,#_sData
-	ld   i3,#0xef
+	ld   i3,#0xa9
 	call &__ZN11SoapRequest5startEPKcPKviP12SoapListener ; call non-native
 	.dlab LBE20
 	.dlab LBE19
 	ld   i0,d0
 	call &__ZN6MAUtil6Moblet3runEPS0_ ; call non-native
 	.dlab LBE18
-	.line 149
+	.line 153
 	ld   r14,#0x0
 	add  sp,#0x4
 	pop  rt,d2
 	ret
-	.stabs	"this:r(0,98)=k(0,46)",64,0,82,6
+	.stabs	"this:r(0,98)=k(0,46)",64,0,86,6
 	.stabn	192,0,0,LBB21-_MAMain
 	.stabn	224,0,0,LBE21-_MAMain
 Lscope42:
 	.set	%20=__ZN8MyMobletD1Ev
-	.stabs	"this:P(0,97)",64,0,78,12
+	.stabs	"this:P(0,97)",64,0,82,12
 
 .func __ZThn220_N8MyMobletD1Ev, 1, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff24
 	call &%20 ; call non-native
 	pop  rt,fr
 	ret
 Lscope43:
 	.set	%21=__ZN8MyMobletD1Ev
-	.stabs	"this:P(0,97)",64,0,78,12
+	.stabs	"this:P(0,97)",64,0,82,12
 
 .func __ZThn216_N8MyMobletD1Ev, 1, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff28
 	call &%21 ; call non-native
 	pop  rt,fr
 	ret
 Lscope44:
-	.stabs	"_ZN8MyMobletD1Ev:f(0,6)",36,0,148,__ZN8MyMobletD1Ev
-	.stabs	"this:P(0,97)",64,0,78,4
+	.stabs	"_ZN8MyMobletD1Ev:f(0,6)",36,0,152,__ZN8MyMobletD1Ev
+	.stabs	"this:P(0,97)",64,0,82,4
 
 .func __ZN8MyMobletD1Ev, 1, void
-	.line 148
+	.line 152
 	push rt,d0
 	ld   fr,sp
 	add  fr,#0xc
 	ld   d0,i0
 	.dlab LBB22
-	.line 148
+	.line 152
 	ld   r14,#__ZTV8MyMoblet+8
 	ld   [i0],r14
 	ld   r14,#__ZTV8MyMoblet+116
@@ -1190,49 +1190,49 @@ Ltext4:
 	.dlab LBE22
 	.stabs	"/Users/brzeszczot/workspace/Soap/SoapTest.cpp",132,0,0,Ltext5
 Ltext5:
-	.line 148
+	.line 152
 	pop  rt,d0
 	ret
 Lscope45:
 	.set	%22=__ZN8MyMobletD0Ev
-	.stabs	"this:P(0,97)",64,0,78,12
+	.stabs	"this:P(0,97)",64,0,82,12
 
 .func __ZThn220_N8MyMobletD0Ev, 1, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff24
 	call &%22 ; call non-native
 	pop  rt,fr
 	ret
 Lscope46:
 	.set	%23=__ZN8MyMobletD0Ev
-	.stabs	"this:P(0,97)",64,0,78,12
+	.stabs	"this:P(0,97)",64,0,82,12
 
 .func __ZThn216_N8MyMobletD0Ev, 1, void
-	.line 78
+	.line 82
 	push rt,fr
 	ld   fr,sp
 	add  fr,#0x8
-	.line 78
+	.line 82
 	add  i0,#0xffffff28
 	call &%23 ; call non-native
 	pop  rt,fr
 	ret
 Lscope47:
-	.stabs	"_ZN8MyMobletD0Ev:f(0,6)",36,0,148,__ZN8MyMobletD0Ev
-	.stabs	"this:P(0,97)",64,0,78,4
+	.stabs	"_ZN8MyMobletD0Ev:f(0,6)",36,0,152,__ZN8MyMobletD0Ev
+	.stabs	"this:P(0,97)",64,0,82,4
 
 .func __ZN8MyMobletD0Ev, 1, void
-	.line 148
+	.line 152
 	push rt,d0
 	ld   fr,sp
 	add  fr,#0xc
 	ld   d0,i0
 	.dlab LBB25
-	.line 148
+	.line 152
 	ld   r14,#__ZTV8MyMoblet+8
 	ld   [i0],r14
 	ld   r14,#__ZTV8MyMoblet+116
@@ -1277,14 +1277,14 @@ Ltext6:
 	.dlab LBE25
 	.stabs	"/Users/brzeszczot/workspace/Soap/SoapTest.cpp",132,0,0,Ltext7
 Ltext7:
-	.line 148
+	.line 152
 	ld   i0,d0
 	call &__ZdlPv ; call non-native
 	pop  rt,d0
 	ret
 Lscope48:
-	.stabs	"sUrl:S(0,99)=ar(3,57);0;48;(0,34)",38,0,29,_sUrl
-	.stabs	"sData:S(0,100)=ar(3,57);0;239;(0,34)",38,0,31,_sData
+	.stabs	"sUrl:S(0,99)=ar(3,57);0;37;(0,34)",38,0,29,_sUrl
+	.stabs	"sData:S(0,100)=ar(3,57);0;169;(0,34)",38,0,31,_sData
 	.text
 	.stabs "",100,0,0,Letext
 Letext:

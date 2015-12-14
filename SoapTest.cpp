@@ -26,21 +26,28 @@ using namespace MAUtil;
 
 // This request will return a the result of a multiplication.
 
-static const char sUrl[] = "http://brzeszczot.net/open/php-wsdl-2.3/demo.php";
-//static const char sUrl[] = "http://brzeszczot.net/soap_server";//"http://modev.mine.nu:12346/";
-static const char sData[] =
+static const char sUrl[] = "http://brzeszczot.net/open/server.php";
 
-"<ns1:ComplexTypeArrayDemo><arr xsi:type=\"SOAP-ENC:Array\" SOAP-ENC:arrayType=\"ns1:ComplexTypeDemo[1]\"><item><StringA>dupaA</StringA><StringB>dupaB</StringB><Integer>34</Integer><Boolean>true</Boolean></item></arr></ns1:ComplexTypeArrayDemo>";
+static const char sData[] =
+		"<ns1:GetWord>"
+		"<range>ALL</range>"
+		"<opt SOAP-ENC:arrayType=\"xsd:string[3]\" xsi:type=\"SOAP-ENC:Array\">"
+		"<item>Ala </item>"
+		"<item>ma </item>"
+		"<item>kota! :)</item>"
+		"</opt>"
+		"</ns1:GetWord>";
 /*
-"<soapenv:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:urn=\"urn:wsdl\">"
-	"<soapenv:Header/>"
-		"<soapenv:Body>"
-		      "<urn:up soapenv:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\">"
-		         "<str xsi:type=\"xsd:string\">Ala ma kota</str>"
-		      "</urn:up>"
-		   "</soapenv:Body>"
-		"</soapenv:Envelope>"
-;
+		"<ns1:ComplexTypeArrayDemo>"
+		"<arr xsi:type=\"SOAP-ENC:Array\" SOAP-ENC:arrayType=\"ns1:ComplexTypeDemo[1]\">"
+		"<item>"
+		"<StringA>dupaA</StringA>"
+		"<StringB>dupaB</StringB>"
+		"<Integer>34</Integer>"
+		"<Boolean>true</Boolean>"
+		"</item>"
+		"</arr>"
+		"</ns1:ComplexTypeArrayDemo>";
 */
 /*
 		"<ns:Get>\n"
@@ -52,8 +59,6 @@ static const char sData[] =
 		"</ns:Get>\n"
 		;
 */
-
-
 /*
 		"<ns1:Get>"
 		"<data xsi:type=\"ns1:Map\">"
@@ -73,7 +78,6 @@ static const char sData[] =
 		"</ns1:Get>"
 		;
 */
-
 
 class MyMoblet : public Moblet, SoapListener {
 private:
